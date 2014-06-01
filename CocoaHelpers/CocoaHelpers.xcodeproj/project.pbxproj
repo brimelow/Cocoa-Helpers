@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		602CBDD518DB023E00A08240 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CBDD418DB023E00A08240 /* Cocoa.framework */; };
+		602CBDDF18DB023E00A08240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 602CBDDD18DB023E00A08240 /* InfoPlist.strings */; };
+		602CBDE118DB023E00A08240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBDE018DB023E00A08240 /* main.m */; };
+		602CBDE518DB023E00A08240 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 602CBDE318DB023E00A08240 /* Credits.rtf */; };
+		602CBDE818DB023E00A08240 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBDE718DB023E00A08240 /* AppDelegate.m */; };
+		602CBDEB18DB023E00A08240 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602CBDE918DB023E00A08240 /* MainMenu.xib */; };
+		602CBDED18DB023E00A08240 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602CBDEC18DB023E00A08240 /* Images.xcassets */; };
+		602CBE0B18DB02A300A08240 /* NSScreen+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE0A18DB02A300A08240 /* NSScreen+Helpers.m */; };
+		602CBE0E18DB08D500A08240 /* NSView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE0D18DB08D500A08240 /* NSView+Helpers.m */; };
+		602CBE3A18DC0E7900A08240 /* SimpleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE3918DC0E7900A08240 /* SimpleButton.m */; };
+		602CBE3D18DC26E200A08240 /* NSMutableAttributedString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE3C18DC26E200A08240 /* NSMutableAttributedString+Helpers.m */; };
+		60544A9B19231FA70017F7FD /* NSString+Glyphs.m in Sources */ = {isa = PBXBuildFile; fileRef = 60544A9A19231FA70017F7FD /* NSString+Glyphs.m */; };
+		60870A9E191DF6C3005C9FE9 /* NSImage+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 60870A9D191DF6C3005C9FE9 /* NSImage+Helpers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		602CBDD118DB023E00A08240 /* CocoaHelpers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHelpers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		602CBDD418DB023E00A08240 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		602CBDD718DB023E00A08240 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		602CBDD818DB023E00A08240 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		602CBDD918DB023E00A08240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		602CBDDC18DB023E00A08240 /* CocoaHelpers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaHelpers-Info.plist"; sourceTree = "<group>"; };
+		602CBDDE18DB023E00A08240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		602CBDE018DB023E00A08240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		602CBDE218DB023E00A08240 /* CocoaHelpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaHelpers-Prefix.pch"; sourceTree = "<group>"; };
+		602CBDE418DB023E00A08240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		602CBDE618DB023E00A08240 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		602CBDE718DB023E00A08240 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		602CBDEA18DB023E00A08240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		602CBDEC18DB023E00A08240 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		602CBDF318DB023E00A08240 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		602CBE0918DB02A300A08240 /* NSScreen+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSScreen+Helpers.h"; path = "Categories/NSScreen+Helpers.h"; sourceTree = "<group>"; };
+		602CBE0A18DB02A300A08240 /* NSScreen+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSScreen+Helpers.m"; path = "Categories/NSScreen+Helpers.m"; sourceTree = "<group>"; };
+		602CBE0C18DB08D500A08240 /* NSView+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Helpers.h"; sourceTree = "<group>"; };
+		602CBE0D18DB08D500A08240 /* NSView+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Helpers.m"; sourceTree = "<group>"; };
+		602CBE3818DC0E7900A08240 /* SimpleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleButton.h; sourceTree = "<group>"; };
+		602CBE3918DC0E7900A08240 /* SimpleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleButton.m; sourceTree = "<group>"; };
+		602CBE3B18DC26E200A08240 /* NSMutableAttributedString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Helpers.h"; sourceTree = "<group>"; };
+		602CBE3C18DC26E200A08240 /* NSMutableAttributedString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Helpers.m"; sourceTree = "<group>"; };
+		60544A9919231FA70017F7FD /* NSString+Glyphs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Glyphs.h"; sourceTree = "<group>"; };
+		60544A9A19231FA70017F7FD /* NSString+Glyphs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Glyphs.m"; sourceTree = "<group>"; };
+		60870A9C191DF6C3005C9FE9 /* NSImage+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Helpers.h"; sourceTree = "<group>"; };
+		60870A9D191DF6C3005C9FE9 /* NSImage+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Helpers.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602CBDCE18DB023E00A08240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602CBDD518DB023E00A08240 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602CBDC818DB023E00A08240 = {
+			isa = PBXGroup;
+			children = (
+				602CBDDA18DB023E00A08240 /* CocoaHelpers */,
+				602CBDD318DB023E00A08240 /* Frameworks */,
+				602CBDD218DB023E00A08240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		602CBDD218DB023E00A08240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602CBDD118DB023E00A08240 /* CocoaHelpers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602CBDD318DB023E00A08240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602CBDD418DB023E00A08240 /* Cocoa.framework */,
+				602CBDF318DB023E00A08240 /* XCTest.framework */,
+				602CBDD618DB023E00A08240 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		602CBDD618DB023E00A08240 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602CBDD718DB023E00A08240 /* AppKit.framework */,
+				602CBDD818DB023E00A08240 /* CoreData.framework */,
+				602CBDD918DB023E00A08240 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		602CBDDA18DB023E00A08240 /* CocoaHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				602CBE3718DC0E4800A08240 /* Controls */,
+				602CBE0818DB025D00A08240 /* Categories */,
+				602CBDE618DB023E00A08240 /* AppDelegate.h */,
+				602CBDE718DB023E00A08240 /* AppDelegate.m */,
+				602CBDE918DB023E00A08240 /* MainMenu.xib */,
+				602CBDEC18DB023E00A08240 /* Images.xcassets */,
+				602CBDDB18DB023E00A08240 /* Supporting Files */,
+			);
+			path = CocoaHelpers;
+			sourceTree = "<group>";
+		};
+		602CBDDB18DB023E00A08240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				602CBDDC18DB023E00A08240 /* CocoaHelpers-Info.plist */,
+				602CBDDD18DB023E00A08240 /* InfoPlist.strings */,
+				602CBDE018DB023E00A08240 /* main.m */,
+				602CBDE218DB023E00A08240 /* CocoaHelpers-Prefix.pch */,
+				602CBDE318DB023E00A08240 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		602CBE0818DB025D00A08240 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				602CBE0918DB02A300A08240 /* NSScreen+Helpers.h */,
+				602CBE0A18DB02A300A08240 /* NSScreen+Helpers.m */,
+				602CBE0C18DB08D500A08240 /* NSView+Helpers.h */,
+				602CBE0D18DB08D500A08240 /* NSView+Helpers.m */,
+				602CBE3B18DC26E200A08240 /* NSMutableAttributedString+Helpers.h */,
+				602CBE3C18DC26E200A08240 /* NSMutableAttributedString+Helpers.m */,
+				60870A9C191DF6C3005C9FE9 /* NSImage+Helpers.h */,
+				60870A9D191DF6C3005C9FE9 /* NSImage+Helpers.m */,
+				60544A9919231FA70017F7FD /* NSString+Glyphs.h */,
+				60544A9A19231FA70017F7FD /* NSString+Glyphs.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		602CBE3718DC0E4800A08240 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				602CBE3818DC0E7900A08240 /* SimpleButton.h */,
+				602CBE3918DC0E7900A08240 /* SimpleButton.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602CBDD018DB023E00A08240 /* CocoaHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602CBE0218DB023E00A08240 /* Build configuration list for PBXNativeTarget "CocoaHelpers" */;
+			buildPhases = (
+				602CBDCD18DB023E00A08240 /* Sources */,
+				602CBDCE18DB023E00A08240 /* Frameworks */,
+				602CBDCF18DB023E00A08240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaHelpers;
+			productName = CocoaHelpers;
+			productReference = 602CBDD118DB023E00A08240 /* CocoaHelpers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		602CBDC918DB023E00A08240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lee Brimelow";
+			};
+			buildConfigurationList = 602CBDCC18DB023E00A08240 /* Build configuration list for PBXProject "CocoaHelpers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 602CBDC818DB023E00A08240;
+			productRefGroup = 602CBDD218DB023E00A08240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602CBDD018DB023E00A08240 /* CocoaHelpers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602CBDCF18DB023E00A08240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602CBDDF18DB023E00A08240 /* InfoPlist.strings in Resources */,
+				602CBDED18DB023E00A08240 /* Images.xcassets in Resources */,
+				602CBDE518DB023E00A08240 /* Credits.rtf in Resources */,
+				602CBDEB18DB023E00A08240 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602CBDCD18DB023E00A08240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602CBE0B18DB02A300A08240 /* NSScreen+Helpers.m in Sources */,
+				602CBE0E18DB08D500A08240 /* NSView+Helpers.m in Sources */,
+				602CBDE818DB023E00A08240 /* AppDelegate.m in Sources */,
+				60544A9B19231FA70017F7FD /* NSString+Glyphs.m in Sources */,
+				602CBE3A18DC0E7900A08240 /* SimpleButton.m in Sources */,
+				602CBE3D18DC26E200A08240 /* NSMutableAttributedString+Helpers.m in Sources */,
+				60870A9E191DF6C3005C9FE9 /* NSImage+Helpers.m in Sources */,
+				602CBDE118DB023E00A08240 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		602CBDDD18DB023E00A08240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602CBDDE18DB023E00A08240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		602CBDE318DB023E00A08240 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602CBDE418DB023E00A08240 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		602CBDE918DB023E00A08240 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602CBDEA18DB023E00A08240 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		602CBE0018DB023E00A08240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		602CBE0118DB023E00A08240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		602CBE0318DB023E00A08240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHelpers/CocoaHelpers-Prefix.pch";
+				INFOPLIST_FILE = "CocoaHelpers/CocoaHelpers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		602CBE0418DB023E00A08240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHelpers/CocoaHelpers-Prefix.pch";
+				INFOPLIST_FILE = "CocoaHelpers/CocoaHelpers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		602CBDCC18DB023E00A08240 /* Build configuration list for PBXProject "CocoaHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602CBE0018DB023E00A08240 /* Debug */,
+				602CBE0118DB023E00A08240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602CBE0218DB023E00A08240 /* Build configuration list for PBXNativeTarget "CocoaHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602CBE0318DB023E00A08240 /* Debug */,
+				602CBE0418DB023E00A08240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 602CBDC918DB023E00A08240 /* Project object */;
+}
