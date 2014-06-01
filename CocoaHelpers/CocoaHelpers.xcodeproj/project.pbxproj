@@ -38,8 +38,8 @@
 		602CBDEA18DB023E00A08240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		602CBDEC18DB023E00A08240 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		602CBDF318DB023E00A08240 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		602CBE0918DB02A300A08240 /* NSScreen+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSScreen+Helpers.h"; path = "Categories/NSScreen+Helpers.h"; sourceTree = "<group>"; };
-		602CBE0A18DB02A300A08240 /* NSScreen+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSScreen+Helpers.m"; path = "Categories/NSScreen+Helpers.m"; sourceTree = "<group>"; };
+		602CBE0918DB02A300A08240 /* NSScreen+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScreen+Helpers.h"; sourceTree = "<group>"; };
+		602CBE0A18DB02A300A08240 /* NSScreen+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScreen+Helpers.m"; sourceTree = "<group>"; };
 		602CBE0C18DB08D500A08240 /* NSView+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Helpers.h"; sourceTree = "<group>"; };
 		602CBE0D18DB08D500A08240 /* NSView+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Helpers.m"; sourceTree = "<group>"; };
 		602CBE3818DC0E7900A08240 /* SimpleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleButton.h; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 				60544A9919231FA70017F7FD /* NSString+Glyphs.h */,
 				60544A9A19231FA70017F7FD /* NSString+Glyphs.m */,
 			);
-			name = Categories;
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		602CBE3718DC0E4800A08240 /* Controls */ = {
@@ -150,7 +150,7 @@
 				602CBE3818DC0E7900A08240 /* SimpleButton.h */,
 				602CBE3918DC0E7900A08240 /* SimpleButton.m */,
 			);
-			name = Controls;
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
