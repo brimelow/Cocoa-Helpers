@@ -16,8 +16,8 @@
 		602CBDED18DB023E00A08240 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602CBDEC18DB023E00A08240 /* Images.xcassets */; };
 		602CBE0B18DB02A300A08240 /* NSScreen+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE0A18DB02A300A08240 /* NSScreen+Helpers.m */; };
 		602CBE0E18DB08D500A08240 /* NSView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE0D18DB08D500A08240 /* NSView+Helpers.m */; };
-		602CBE3A18DC0E7900A08240 /* SimpleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE3918DC0E7900A08240 /* SimpleButton.m */; };
 		602CBE3D18DC26E200A08240 /* NSMutableAttributedString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CBE3C18DC26E200A08240 /* NSMutableAttributedString+Helpers.m */; };
+		604EB501193AEB3100107C4D /* SimpleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 604EB500193AEB3100107C4D /* SimpleButton.m */; };
 		60544A9B19231FA70017F7FD /* NSString+Glyphs.m in Sources */ = {isa = PBXBuildFile; fileRef = 60544A9A19231FA70017F7FD /* NSString+Glyphs.m */; };
 		60870A9E191DF6C3005C9FE9 /* NSImage+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 60870A9D191DF6C3005C9FE9 /* NSImage+Helpers.m */; };
 /* End PBXBuildFile section */
@@ -42,10 +42,10 @@
 		602CBE0A18DB02A300A08240 /* NSScreen+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScreen+Helpers.m"; sourceTree = "<group>"; };
 		602CBE0C18DB08D500A08240 /* NSView+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Helpers.h"; sourceTree = "<group>"; };
 		602CBE0D18DB08D500A08240 /* NSView+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Helpers.m"; sourceTree = "<group>"; };
-		602CBE3818DC0E7900A08240 /* SimpleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleButton.h; sourceTree = "<group>"; };
-		602CBE3918DC0E7900A08240 /* SimpleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleButton.m; sourceTree = "<group>"; };
 		602CBE3B18DC26E200A08240 /* NSMutableAttributedString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Helpers.h"; sourceTree = "<group>"; };
 		602CBE3C18DC26E200A08240 /* NSMutableAttributedString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Helpers.m"; sourceTree = "<group>"; };
+		604EB4FF193AEB3100107C4D /* SimpleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleButton.h; sourceTree = "<group>"; };
+		604EB500193AEB3100107C4D /* SimpleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleButton.m; sourceTree = "<group>"; };
 		60544A9919231FA70017F7FD /* NSString+Glyphs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Glyphs.h"; sourceTree = "<group>"; };
 		60544A9A19231FA70017F7FD /* NSString+Glyphs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Glyphs.m"; sourceTree = "<group>"; };
 		60870A9C191DF6C3005C9FE9 /* NSImage+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Helpers.h"; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		602CBDDA18DB023E00A08240 /* CocoaHelpers */ = {
 			isa = PBXGroup;
 			children = (
-				602CBE3718DC0E4800A08240 /* Controls */,
+				604EB4FE193AEB3100107C4D /* Controls */,
 				602CBE0818DB025D00A08240 /* Categories */,
 				602CBDE618DB023E00A08240 /* AppDelegate.h */,
 				602CBDE718DB023E00A08240 /* AppDelegate.m */,
@@ -144,11 +144,11 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		602CBE3718DC0E4800A08240 /* Controls */ = {
+		604EB4FE193AEB3100107C4D /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				602CBE3818DC0E7900A08240 /* SimpleButton.h */,
-				602CBE3918DC0E7900A08240 /* SimpleButton.m */,
+				604EB4FF193AEB3100107C4D /* SimpleButton.h */,
+				604EB500193AEB3100107C4D /* SimpleButton.m */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -223,10 +223,10 @@
 				602CBE0E18DB08D500A08240 /* NSView+Helpers.m in Sources */,
 				602CBDE818DB023E00A08240 /* AppDelegate.m in Sources */,
 				60544A9B19231FA70017F7FD /* NSString+Glyphs.m in Sources */,
-				602CBE3A18DC0E7900A08240 /* SimpleButton.m in Sources */,
 				602CBE3D18DC26E200A08240 /* NSMutableAttributedString+Helpers.m in Sources */,
 				60870A9E191DF6C3005C9FE9 /* NSImage+Helpers.m in Sources */,
 				602CBDE118DB023E00A08240 /* main.m in Sources */,
+				604EB501193AEB3100107C4D /* SimpleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
